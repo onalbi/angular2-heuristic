@@ -1,0 +1,40 @@
+{
+  "name": "angular2-heuristic",
+  "version": "0.0.5",
+  "scripts": {
+    "lint": "tslint \"./src/**/*.ts\"",
+    "test": "mocha --opts mocha.opts",
+    "test:auto": "mocha --opts mocha.opts --watch",
+    "prepublish": "tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/onalbi/angular2-heuristic"
+  },
+  "author": {
+    "name": "Albion Liçi",
+    "email": "lici.albion@gmail.com"
+  },
+  "keywords": [
+    "angular2",
+    "heuristic"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/onalbi/angular2-heuristic/issues"
+  },
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "dependencies": {},
+  "devDependencies": {
+    "codelyzer": "*",
+    "mocha": "*",
+    "chai": "*",
+    "ts-node": "^1.7.0",
+    "tslint": "^3.9.0",
+    "typescript": "^2.0.10"
+  },
+  "engines": {
+    "node": "^4.1.0"
+  }
+}
