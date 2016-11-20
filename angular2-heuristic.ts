@@ -1,7 +1,7 @@
 /**
  * Class Heuristic - Holds static functions to deal with Heuristic
  */
-export default class Heuristic {
+export class Heuristic {
 
     public static levenshtein(str1:string, str2:string) {
         // base cases

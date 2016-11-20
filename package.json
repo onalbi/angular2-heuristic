@@ -1,6 +1,6 @@
 {
   "name": "angular2-heuristic",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "scripts": {
     "lint": "tslint \"./src/**/*.ts\"",
     "test": "mocha --opts mocha.opts",

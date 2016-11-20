@@ -1,7 +1,7 @@
 /// <reference path="../typings/mocha/mocha.d.ts" />
 /// <reference path="../typings/chai/chai.d.ts" />
 
-import Heuristic from '../angular2-heuristics'
+import { Heuristic } from '../angular2-heuristic'
 import { expect } from 'chai';
 
 describe("Heuristic", () => {

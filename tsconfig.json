@@ -11,8 +11,8 @@
     "declaration": true
   },
   "files": [
-    "src/index.ts",
-    "heuristic.lib.ts"
+    "angular2-heuristic.ts",
+    "index.ts"
   ],
   "exclude": [
     "node_modules"
