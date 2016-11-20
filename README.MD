@@ -19,9 +19,9 @@ $ npm install angular2-heuristic
 and then from your Angular `AppModule`:
 
 ```typescript
-import { Heuristic } from 'angular2-heuristic/heuristic.lib';
+import Heuristic from 'angular2-heuristic';
 
-Heuristic.similarity('albion', 'albion');
+Heuristic.similarity('test', 'test');
 ```
 
 
